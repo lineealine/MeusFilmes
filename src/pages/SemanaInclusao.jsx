@@ -9,7 +9,7 @@ export default function SemanaInclusao() {
         width={100}
         height={100}
         source={{
-          uri: 'https://reactnative.dev/img/tiny_logo.png',
+          url: '',
         }}
       />
     </View>
