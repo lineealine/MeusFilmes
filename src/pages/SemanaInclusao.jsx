@@ -18,7 +18,7 @@ export default function SemanaInclusao() {
       />
      
 
-      <Text style={styles.subtitle}>DEFICIÊNCIA AUDITIVA</Text>
+      <Text style={styles.subtitle}>DEFICIÊNCIA AUDITIVA</Text> 
      
 
       <Text style={styles.text}>
