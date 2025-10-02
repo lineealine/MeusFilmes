@@ -1,43 +1,44 @@
 import React from 'react';
 import { View, Text, StyleSheet, ScrollView, Image } from 'react-native';
 
+
+
+
 export default function SemanaInclusao() {
   return (
     <ScrollView contentContainerStyle={styles.container}>
-      {/* Título Principal */}
+
       <Text style={styles.title}>SEMANA DA INCLUSÃO E DIVERSIDADE</Text>
-      
-      {/* Primeira Imagem */}
+     
+
       <Image
         source={{ uri: 'https://scontent.fcfc1-1.fna.fbcdn.net/v/t1.15752-9/552437140_2316976958752528_5408427357658633956_n.png?stp=dst-png_s552x414&_nc_cat=102&ccb=1-7&_nc_sid=0024fc&_nc_ohc=JE-QVux2FuMQ7kNvwFG_onJ&_nc_oc=AdnEtKiLZGuGO7DzyAlwdPKkzF9G9jhRPCwjHUjWAx1PjMuxc6IGzT-H-ca_ldvA76U&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.fcfc1-1.fna&oh=03_Q7cD3gExyyZAuaJiqgsLKEnQC_Z9yd67N5KbTvsYOL6FF2POLg&oe=6905CD33' }}
         style={styles.image}
         resizeMode="cover"
       />
-      
-      {/* Subtítulo */}
+     
+
       <Text style={styles.subtitle}>DEFICIÊNCIA AUDITIVA</Text>
-      
-      {/* Texto descritivo */}
+     
+
       <Text style={styles.text}>
-        A Semana da Inclusão e Diversidade com foco na Deficiência Auditiva é uma 
-        iniciativa fundamental para promover a acessibilidade e igualdade de 
-        oportunidades para pessoas com deficiência auditiva. Este período é dedicado 
-        à educação, conscientização e implementação de medidas que garantam a plena 
-        participação dessas pessoas em todos os aspectos da vida social.
+        A Semana da Diversidade e Inclusão é um momento dedicado à valorização das diferenças e à promoção de um ambiente mais justo, acolhedor e respeitoso para todas as pessoas. Durante essa semana, refletimos sobre a importância de reconhecer e celebrar a pluralidade de identidades, culturas, histórias e formas de existir.
       </Text>
-      
-      {/* Texto com dicas práticas */}
+     
+
       <Text style={styles.text}>
-        • Aprender básicos da Libras (Língua Brasileira de Sinais){'\n'}
-        • Utilizar legendas em vídeos e apresentações{'\n'}
-        • Garantir acessibilidade em eventos públicos{'\n'}
-        • Promover o uso de tecnologias assistivas{'\n'}
-        • Criar ambientes com boa iluminação para leitura labial
+        A deficiência auditiva afeta milhões de pessoas no mundo e pode variar de leve a profunda. Mais do que uma limitação sensorial, ela nos convida a repensar a comunicação com empatia e respeito.
+
+
+Promover a inclusão de pessoas surdas ou com perda auditiva significa adotar práticas acessíveis, como o uso da Língua Brasileira de Sinais (Libras), legendas e ambientes que favoreçam a leitura labial.
       </Text>
-      
+     
     </ScrollView>
   );
 }
+
+
+
 
 const styles = StyleSheet.create({
   container: {
@@ -47,7 +48,7 @@ const styles = StyleSheet.create({
     alignItems: 'center',
   },
   title: {
-    fontSize: 24,
+    fontSize: 30,
     fontWeight: 'bold',
     color: '#004080',
     marginBottom: 20,
@@ -91,3 +92,15 @@ const styles = StyleSheet.create({
     width: '100%',
   },
 });
+
+
+
+
+
+
+
+
+
+
+
+
